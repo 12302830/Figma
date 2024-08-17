@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     }
+    
+        body
+    {
+        
+    }
+        
+        header{
+    width: 100%;
+    height: 200px;
+    background-color: #006491;
+    display: grid;
+    grid-template-columns: 290px 1fr 95px ;
+    align-items:center;
+    padding: 0 20px;
+    }
+        
+        .logos img{
+    align-items: center;
+    height: 170px;
+    object-fit: contain;
+    }
+        
+    
+        .Palavras{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    display: flex;
+    font-size: 80px;
+    color: white;
+    }
+    .Palavras h1{
+        margin: 0;
+font-weight: 100;
+        padding-left: 305px;
+    }
+    .Voltar img{
+        align-self: center;
+        width: 80px;
+        height: 80px;
+        padding-bottom: 10px;
+        }
+        
+            .centro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 495px;  
+        background-color: #B04628;
+        }
+        .informa{
+            justify-items: center;
+            padding-right: 78px;
+
+        }
+        .informa h1{
+font-weight: 100;
+background-color: #006491;
+color: white;
+font-size: 35px;
+font-family: "Bebas Neue", sans-serif;
+padding: 10px;
+border: 2px solid black;
+border-radius: 100px;
+text-align: center;
+width: 140%;
+margin: 0 auto;
+        }

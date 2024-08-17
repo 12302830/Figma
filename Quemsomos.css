@@ -1,0 +1,95 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+ }
+
+    body
+{
+    
+}
+    
+    header{
+width: 100%;
+height: 200px;
+background-color: #006491;
+display: grid;
+grid-template-columns: 290px 1fr 95px ;
+align-items:center;
+padding: 0 20px;
+}
+    
+    .logo img{
+align-items: center;
+height: 170px;
+object-fit: contain;
+}
+    
+
+    .Palavra{
+font-family: "Bebas Neue", sans-serif;
+text-align: center;
+display: flex;
+font-size: 80px;
+color: white;
+}
+
+    .Palavra h1
+    .Palavra h2{
+margin: 0;
+}
+
+    .Palavra h1{
+padding-top: 10px;
+font-weight:100;
+padding-left: 245px;
+}
+
+    .Palavra h2{  
+padding-top: 10px;
+font-weight:100;    
+margin-left: 25px;
+}
+
+    .Voltar img{
+align-self: center;
+width: 80px;
+height: 80px;
+}
+
+    .center{
+width: 100%;
+height: 550px;  
+background-color: #B04628;
+display: grid;
+grid-template-columns: 1fr 2fr;       
+}
+.cozinheiro{
+    border-radius: 161;
+    justify-items: left;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    }
+    .cozinheiro img{
+        width: 485px;
+        height: 427px;
+    }
+
+    .escrito{
+      justify-items: end;
+    }
+
+.escrito h1{
+background-color: #006491;
+color: white;
+font-size: 27px;
+font-family: "Bebas Neue", sans-serif;
+text-align: center;
+margin: 100px 35px 0 40px;
+padding: 20px;
+border: 2px solid black;
+border-radius: 50px;
+text-align: justify;
+font-weight:100;
+}

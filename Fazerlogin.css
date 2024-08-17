@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     }
+    
+        body
+    {
+        
+        
+    }
+        
+        header{
+    width: 100%;
+    height: 200px;
+    background-color: #006491;
+    display: grid;
+    grid-template-columns: 290px 1fr 95px ;
+    align-items:center;
+    padding: 0 20px;
+    }
+        
+        .logos img{
+    align-items: center;
+    height: 170px;
+    object-fit: contain;
+    }
+        
+    
+        .Palavras{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    display: flex;
+    font-size: 80px;
+    color: white;
+    }
+    .Palavras h1
+    .Palavrash2{
+        margin: 0;
+    }
+
+    .Palavras h1{
+font-weight:100;
+padding-left: 245px;
+    }
+
+    .Palavras h2{
+font-weight:100; 
+margin-left: 25px
+    }
+
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 495px; 
+background-color: #B04628;
+padding-left: 80px;
+            
+        }
+        .Voltar img{
+align-self: center;
+width: 80px;
+height: 80px;
+padding-bottom: 10px;
+}   
+
+.centro {
+    font-family: "Judson", serif;
+    font-weight:900;
+    font-size: 25px;
+    background-color:#B04628;
+    padding: 18px;
+    width: 300px;
+}
+
+
+.centro h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+.centro label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.centro input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+}
+
+
+.centro button {
+    width: 100%;
+    padding: 10px;
+    background-color: #006491;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    border: 1px solid #000000;
+}
+
+.centro button:hover {
+    background-color: #005080;
+}

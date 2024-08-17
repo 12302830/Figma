@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+    body
+{
+    
+      
+}
+    
+    header{
+width: 100%;
+height: 200px;
+background-color: #006491;
+display: grid;
+grid-template-columns: 290px 1fr 95px ;
+align-items: center;
+padding: 0 20px;
+}
+    
+    .logo img{
+align-items: center;
+height: 170px;
+object-fit: contain;
+}
+
+   header .Palavra{
+font-family: "Bebas Neue", sans-serif;
+display: flex;
+text-align: center;
+font-size: 110px;
+color: white;
+padding-left: 270px;
+font-weight: 10;
+}
+
+    .center{
+width: 100%;
+height: 800px;  
+background-color: #B04628;
+padding-left: 50px;
+padding-top: 70px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+grid-template-rows: 1fr 1fr;
+}
+
+    .Voltar img{
+align-self: center;
+width: 80px;
+height: 80px;
+}
+
+    .center div{
+border: 1px solid black;
+border-radius: 25px;
+width: 310px; ;
+height: 320px; ;
+align-items: center;
+font-family: "Bebas Neue", sans-serif;
+text-align: center;
+color: white;
+font-size: 22px;
+background-color: #006491;
+margin-right: 50px;
+margin-bottom: 25px;       
+}
+
+.pizzas h1{
+
+    font-size: 30px;
+}
+
+    .center img{
+align-items:center;
+width: 200px; 
+height: 160px;    
+border: 1px solid black;
+border-radius: 50px;
+}     
+
+
+    .btncor{
+float: left;
+flex-shrink: 0;
+border: none;
+border-radius: 25px;
+cursor: pointer;
+background-color:rgb(23, 179, 23); 
+border: 1px solid black;
+}
+
+    .btncor a{
+font-size: 25px;
+font-family: "Bebas Neue", sans-serif;
+color: white;
+border-radius: 10px;
+padding: 12px 20px;
+text-decoration: none;
+}
+
+    .btncor a:hover{
+padding: 1px 20px;
+background-color: rgba(255, 255, 255, 0.747);
+color:rgb(23, 179, 23) ;
+border-radius: 24px;
+transform: scale(0.9);
+}
